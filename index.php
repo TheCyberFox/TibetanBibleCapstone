@@ -31,7 +31,7 @@ if (!isset($_SESSION['lang'])){
       </div>
       <nav role="navigation" class="nav-menu-2 w-nav-menu">
         <div class="navlink_wrapper">
-          <a href="home.php" aria-current="page" class="navlink1 w-inline-block w--current">
+          <a href="index.php" aria-current="page" class="navlink1 w-inline-block w--current">
             <div class="nav_link_content_wrapper">
               <div class="text-block-4"><?php if($_SESSION['lang'] == 'en'){echo "Home";}elseif($_SESSION['lang'] == 'ch'){echo "家";}else {echo "ཧོམེ";}?></div><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-2">
             </div>
