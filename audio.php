@@ -45,7 +45,7 @@ $audio_get_name = pathinfo($audio_get, PATHINFO_FILENAME);
         </div>
         <nav role="navigation" class="nav-menu-2 w-nav-menu">
             <div class="navlink_wrapper">
-                <a href="home.php" class="navlink1 w-inline-block">
+                <a href="index.php" class="navlink1 w-inline-block">
                     <div class="nav_link_content_wrapper">
                         <div class="text-block-4"><?php if($_SESSION['lang'] == 'en'){echo "Home";}elseif($_SESSION['lang'] == 'ch'){echo "家";}else {echo "ཧོམེ";}?></div><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="image-2">
                     </div>
